@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>    
+    .flower{
+        width: 26em;
+        height: 26em;
+        /* background-color: aqua; */
+        position: absolute;
+        top: 40em;
+        left: 25em;
+         animation: color 25ms infinite; 
+    }
+     @keyframes color{
+        frpm{
+            filter:hue-rotate(0deg);
+        }
+        to{
+            filter:hue-rotate(2000deg);
+        }
+    } 
+    .common{
+        width: 10em;
+        height: 10em;
+        background-color: rgb(232, 85, 163) 27, 125);
+        margin: 0.8em;
+        position:absolute;
+        top: -5em;
+        left: 5.5em;
+        border-radius: 10em 0em 10em 0em;
+        rotate: -45deg;
+        transition: all 15s;
+    }
+    .flower:hover .child1{
+        rotate: -25deg;
+    }
+    .flower:hover .child2{
+        rotate: 0deg;
+    }
+    .flower:hover .child3{
+        rotate: -65deg;
+    }
+    .flower:hover .child4{
+        rotate: -90deg;
+    }
+     .flower:hover.child5{
+        rotate: 90deg;
+    } 
+    .box{
+        width: 15em;
+        height: 15em;
+        background-color: green;
+        position: absolute;
+        top: 0em;
+        left: 3.5em;
+        border-radius: 20% 20% 100% 100%;
+
+    }
+</style>
+
+</head>
+<body>
+    <div class="flower">
+        <div class="common child1"></div>
+        <div class="common child2"></div>
+        <div class="common child3"></div>
+        <div class="common child4"></div>
+        <div class="common child5"></div>
+        <div class="common child6"></div>
+
+        <div class="box"></div>
+    </div>
+</body>
+</html>
