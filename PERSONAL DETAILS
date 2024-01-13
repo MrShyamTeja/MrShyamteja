@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL DETAILS</title>
+</head>
+<body>
+    <fieldset style="width: 400px;height: 520px;background-color: rgb(22, 92, 206);">
+        <legend style="background-color: rgb(229, 229, 12);">
+            STUDENT DETAILS
+        </legend>
+        <fieldset style="width: 380px;height: 120px; background-color: rgb(81, 101, 203);color: rgb(244, 131, 10);">
+            <legend style="background-color:lightskyblue; color: rgb(97, 44, 205);">PERSONAL DETAILS</legend>
+            <table >
+                <tr style="background-color: rgb(86, 94, 236);">
+                    <td>USER NAME <sup>*</sup></td>
+                </tr>
+            </table>
+            <table>
+                <tr><input type="text"></tr>
+                <table>
+                    <tr><td style="background-color: rgb(86, 94, 236);">PASSWORD <sup>*</sup>
+                 </td>
+                </tr>
+                </table>
+                <tr>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>GENDER <sup>*</sup></legend>
+            <table>
+                <tr>
+                    <td><input type="radio" value="FEMALE">FEMALE</td>
+                    <td><input type="radio" value="MALE">MALE</td>
+                </tr>
+            </table>
+        </fieldset>
+       <fieldset>
+        <legend>PROGRAMMING SKILLS</legend>
+        <table>
+            <tr></tr>
+            <td><input type="checkbox" value="c++">C++</td>
+           <td> <input type="checkbox" value="java">Java</td>
+            <td><input type="checkbox" value="c#">Python</td>
+        </tr>
+        </table>
+       </fieldset>
+       <fieldset>
+        <legend>FRUITS</legend>
+        <table>
+            <tr>
+                <td>Choose fruit</td>
+                <td>:</td>
+                <td>
+                    <select name="" id="" style="border-radius: 10%;">
+                    <option value="--select fruit--" >--Select Fruit--</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Guava">Guava</option>
+                    <option value="Orange">Orange</option>
+                </select>
+                </td>
+            </tr>
+        </table>
+       </fieldset>
+       <textarea name="" id="" cols="30" rows="10">Choose remarks</textarea>
+       <table>
+        <tr>
+            <td><input type="submit" value="SEND"  style="border-radius: 15%;"></td>
+            <td><input type="submit" value="RESET" style="border-radius: 14%;"></td>
+        </tr>
+       </table>
+    </fieldset>
+</body>
+</html>
