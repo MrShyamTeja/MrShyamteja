@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Box-Sizing</title>
+    <style>
+       div{
+        width: calc(100px*var(--a));
+        height: calc(100px*var(--a));
+        background-color: var(--b);
+        rotate: calc(20deg*var(--c));
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div style="--a:1;--b:red;--c:1;">1</div>
+        <div style="--a:2;--b:blue;--c:2;">2</div>
+        <div style="--a:3;--b:orange;--c:3;">3</div>
+        <div style="--a:4;--b:green;--c:4;">4</div>
+    </center>
+</body>
+</html>
