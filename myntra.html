@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100%;
+            height: 120px;
+            background-color: white;
+            border-bottom: inset;
+
+        }
+
+        img {
+            height: 80px;
+            width: 80px;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            float: left;
+        }
+
+        .main .unorder {
+            display: inline-flex;
+            margin-top: 40px;
+            margin-left: 70px;
+            float: left;
+        }
+
+        li {
+            list-style: none;
+            margin: 17px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 0px 15px 45px 15px;
+            font-weight: bolder;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .main .unorder .men:hover .hai {
+            display: block;
+        }
+
+        .main .unorder .women:hover .hai {
+            display: block;
+        }
+
+        .main .unorder .kids:hover .hai {
+            display: block;
+        }
+
+        .main .unorder .home:hover .hai {
+            display: block;
+        }
+
+        .main .unorder .beauty:hover .hai {
+            display: block;
+        }
+
+
+        .hai {
+            display: none;
+            position: absolute;
+            width: 900px;
+            height: 600px;
+            left: 170px;
+            top: 126px;
+            background-color:whitesmoke;
+        }
+
+        .a:hover {
+            border-bottom: 5px solid red;
+        }
+
+        .a2:hover {
+            font-weight: 500;
+            transform: scale(1.25);
+        }
+
+        .a1 {
+            font-weight: bold;
+            color: red;
+        }
+
+        .a1 .a2 {
+            list-style: none;
+        }
+
+
+        .ab:hover {
+            border-bottom: 5px solid deeppink;
+        }
+
+        .a4:hover {
+            font-weight: 500;
+            transform: scale(1.25);
+        }
+
+        .a3 {
+            font-weight: bold;
+            color: deeppink;
+        }
+
+        .a3 .a4 {
+            list-style: none;
+        }
+
+
+
+        .abc:hover {
+            border-bottom: 5px solid orange;
+        }
+
+        .a6:hover {
+            font-weight: 500;
+            transform: scale(1.25);
+        }
+
+        .a5 {
+            font-weight: bold;
+            color: orange;
+        }
+
+        .a5 .a6 {
+            list-style: none;
+        }
+
+        .abcd:hover {
+            border-bottom: 5px solid yellow;
+        }
+
+        .a8:hover {
+            font-weight: 500;
+            transform: scale(1.25);
+        }
+
+        .a7 {
+            font-weight: bold;
+            color: yellow;
+        }
+
+        .a7 .a8 {
+            list-style: none;
+        }
+
+        .abcde:hover {
+            border-bottom: 5px solid cyan;
+        }
+
+        .a10:hover {
+            font-weight: 500;
+            transform: scale(1.25);
+        }
+
+        .a9 {
+            font-weight: bold;
+            color: cyan;
+        }
+
+        .a9 .a10 {
+            list-style: none;
+        }
+        .div {
+            width: fit-content;
+            height: fit-content;
+            margin: 20px;
+            float: left;
+        }
+        sup{
+            color: red;
+            text-shadow: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img src="https://gumlet.assettype.com/afaqs%2F2021-01%2F15f5f827-8e29-4520-af8d-a0f353b8da17%2Fimages.png?auto=format%2Ccompress&w=1200"
+            alt="">
+        <ul class="unorder">
+            <li class="men"><a href="#" class="a">MEN</a>
+                <div class="hai">
+                    <div class="div">
+                        <ul class="list">
+                            <li class="a1">Topwear</li>
+                            <li class="a2">T-Shirts</li>
+                            <li class="a2">Casual Shirts</li>
+                            <li class="a2">Formal Shirts</li>
+                            <li class="a2">Sweatshirts</li>
+                            <li class="a2">Sweaters</li>
+                            <li class="a2">Jackets</li>
+                            <li class="a2">Blazers&Coats</li>
+                            <li class="a2">Suits</li>
+                            <li class="a2">Rain Jackets</li>
+                            <hr>
+            </li>
+            <li class="a1">Indian & Festive Wear</li>
+            <li class="a2">Kurtas & Kurta Sets</li>
+            <li class="a2">Sherwanis</li>
+            <li class="a2">Nehru Jackets</li>
+            <li class="a2">Dhotis</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a1">Bottomwear</li>
+            <li class="a2">Jeans</li>
+            <li class="a2">Casual Trousers</li>
+            <li class="a2">Formal Trousers</li>
+            <li class="a2">Shorts</li>
+            <li class="a2">Track Pants & Joggers</li>
+            <hr>
+            </li>
+            <li class="a1">Innerwear & Sleepwear</li>
+            <li class="a2">Briefs & Trunks</li>
+            <li class="a2">Boxers</li>
+            <li class="a2">Vests</li>
+            <li class="a2">Sleepwear & Loungewear</li>
+            <li class="a2">Thermals</li>
+            <hr>
+            </li>
+            <li class="a1">Plus Size</li>
+            <li class="a2">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a1">Footwear</li>
+            <li class="a2">Sports Shoes</li>
+            <li class="a2">Formal Shoes</li>
+            <li class="a2">Sneakers</li>
+            <li class="a2">Sandals & Floaters</li>
+            <li class="a2">Flip Flops</li>
+            <li class="a2">Socks</li>
+            <hr>
+            </li>
+            <li class="a1">Personal Care & Grooming</li>
+            <li class="a2">Sunglasses & Frames</li>
+            <li class="a2">Watches</li>
+            <li class="a2">&nbsp;</li>
+            <li class="a2">&nbsp;</li>
+            <li class="a2">&nbsp;</li>
+            <li class="a2">&nbsp;</li>
+            <li class="a2">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="div">
+
+        <ul class="list">
+            <li class="a1">Sports & Active Wear</li>
+            <li class="a2">Sports Shoes</li>
+            <li class="a2">Sports Sandals</li>
+            <li class="a2">Active T-Shirts</li>
+            <li class="a2">Track Pants & Shorts</li>
+            <li class="a2">Tracksuits</li>
+            <li class="a2">Jackets & Sweatshirts</li>
+            <li class="a2">Sports Accessories</li>
+            <li class="a2">Swimwear</li>
+            <hr>
+            </li>
+            <li class="a2">&nbsp;</li>
+            <li class="a1">Gadgets</li>
+            <li class="a2">Smart Wearables</li>
+            <li class="a2">Fitness Gadgets</li>
+            <li class="a2">Headphones</li>
+            <li class="a2">Speakers</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a1">Fashion Accessories</li>
+            <li class="a2">Wallets</li>
+            <li class="a2">Belts</li>
+            <li class="a2">Perfumes & Body Mists</li>
+            <li class="a2">Trimmers</li>
+            <li class="a2">Deodorants</li>
+            <li class="a2">Ties & Cufflinks</li>
+            <li class="a2">Acessory Gift Sets</li>
+            <li class="a2">Caps & Hats</li>
+            <li class="a2">Mufflers & Gloves</li>
+            <li class="a2">Phone Cases</li>
+            <li class="a2">Rings & Wristwear</li>
+            <li class="a2">Helmets</li>
+            <hr>
+            </li>
+            <li class="a1">Bags & Backpacks</li>
+            <li class="a1">Luggages & Trolleys</li>
+        </ul>
+    </div>
+    </div>
+    </li>
+    <li class="women"><a href="#" class="a">WOMEN</a>
+        <div class="hai">
+            <div class="div">
+                <ul class="list">
+                    <li class="a3">Topwear</li>
+                    <li class="a4">T-Shirts</li>
+                    <li class="a4">Casual Shirts</li>
+                    <li class="a4">Formal Shirts</li>
+                    <li class="a4">Sweatshirts</li>
+                    <li class="a4">Sweaters</li>
+                    <li class="a4">Jackets</li>
+                    <li class="a4">Blazers&Coats</li>
+                    <li class="a4">Suits</li>
+                    <li class="a4">Rain Jackets</li>
+                    <hr>
+    </li>
+    <li class="a3">Indian & Festive Wear</li>
+    <li class="a4">Kurtas & Kurta Sets</li>
+    <li class="a4">Sherwanis</li>
+    <li class="a4">Nehru Jackets</li>
+    <li class="a4">Dhotis</li>
+    </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a3">Bottomwear</li>
+            <li class="a4">Jeans</li>
+            <li class="a4">Casual Trousers</li>
+            <li class="a4">Formal Trousers</li>
+            <li class="a4">Shorts</li>
+            <li class="a4">Track Pants & Joggers</li>
+            <hr>
+            </li>
+            <li class="a3">Innerwear & Sleepwear</li>
+            <li class="a4">Briefs & Trunks</li>
+            <li class="a4">Boxers</li>
+            <li class="a4">Vests</li>
+            <li class="a4">Sleepwear & Loungewear</li>
+            <li class="a4">Thermals</li>
+            <hr>
+            </li>
+            <li class="a3">Plus Size</li>
+            <li class="a4">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a3">Footwear</li>
+            <li class="a4">Sports Shoes</li>
+            <li class="a4">Formal Shoes</li>
+            <li class="a4">Sneakers</li>
+            <li class="a4">Sandals & Floaters</li>
+            <li class="a4">Flip Flops</li>
+            <li class="a4">Socks</li>
+            <hr>
+            </li>
+            <li class="a3">Personal Care & Grooming</li>
+            <li class="a4">Sunglasses & Frames</li>
+            <li class="a4">Watches</li>
+            <li class="a4">&nbsp;</li>
+            <li class="a4">&nbsp;</li>
+            <li class="a4">&nbsp;</li>
+            <li class="a4">&nbsp;</li>
+            <li class="a4">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="div">
+
+        <ul class="list">
+            <li class="a3">Sports & Active Wear</li>
+            <li class="a4">Sports Shoes</li>
+            <li class="a4">Sports Sandals</li>
+            <li class="a4">Active T-Shirts</li>
+            <li class="a4">Track Pants & Shorts</li>
+            <li class="a4">Tracksuits</li>
+            <li class="a4">Jackets & Sweatshirts</li>
+            <li class="a4">Sports Accessories</li>
+            <li class="a4">Swimwear</li>
+            <hr>
+            </li>
+            <li class="a4">&nbsp;</li>
+            <li class="a3">Gadgets</li>
+            <li class="a4">Smart Wearables</li>
+            <li class="a4">Fitness Gadgets</li>
+            <li class="a4">Headphones</li>
+            <li class="a4">Speakers</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a3">Fashion Accessories</li>
+            <li class="a4">Wallets</li>
+            <li class="a4">Belts</li>
+            <li class="a4">Perfumes & Body Mists</li>
+            <li class="a4">Trimmers</li>
+            <li class="a4">Deodorants</li>
+            <li class="a4">Ties & Cufflinks</li>
+            <li class="a4">Acessory Gift Sets</li>
+            <li class="a4">Caps & Hats</li>
+            <li class="a4">Mufflers & Gloves</li>
+            <li class="a4">Phone Cases</li>
+            <li class="a4">Rings & Wristwear</li>
+            <li class="a4">Helmets</li>
+            <hr>
+            </li>
+            <li class="a3">Bags & Backpacks</li>
+            <li class="a3">Luggages & Trolleys</li>
+        </ul>
+    </div>
+    </div>
+    </li>
+    <li class="kids"><a class="abc" href="#">KIDS</a>
+        <div class="hai">
+            <div class="div">
+                <ul class="list">
+                    <li class="a5">Topwear</li>
+                    <li class="a6">T-Shirts</li>
+                    <li class="a6">Casual Shirts</li>
+                    <li class="a6">Formal Shirts</li>
+                    <li class="a6">Sweatshirts</li>
+                    <li class="a6">Sweaters</li>
+                    <li class="a6">Jackets</li>
+                    <li class="a6">Blazers&Coats</li>
+                    <li class="a6">Suits</li>
+                    <li class="a6">Rain Jackets</li>
+                    <li class="a5">
+                        <hr>
+                    </li>
+                    <li class="a5">Indian & Festive Wear</li>
+                    <li class="a6">Kurtas & Kurta Sets</li>
+                    <li class="a6">Sherwanis</li>
+                    <li class="a6">Nehru Jackets</li>
+                    <li class="a6">Dhotis</li>
+                </ul>
+            </div>
+            <div class="div">
+                <ul class="list">
+                    <li class="a5">Bottomwear</li>
+                    <li class="a6">Jeans</li>
+                    <li class="a6">Casual Trousers</li>
+                    <li class="a6">Formal Trousers</li>
+                    <li class="a6">Shorts</li>
+                    <li class="a6">Track Pants & Joggers</li>
+                    <li class="a6">
+                        <hr>
+                    </li>
+                    <li class="a5">Innerwear & Sleepwear</li>
+                    <li class="a6">Briefs & Trunks</li>
+                    <li class="a6">Boxers</li>
+                    <li class="a6">Vests</li>
+                    <li class="a6">Sleepwear & Loungewear</li>
+                    <li class="a6">Thermals</li>
+                    <li class="a5">
+                        <hr>
+                    </li>
+                    <li class="a5">Plus Size</li>
+                    <li class="a6">&nbsp;</li>
+                </ul>
+            </div>
+            <div class="div">
+                <ul class="list">
+                    <li class="a5">Footwear</li>
+                    <li class="a6">Sports Shoes</li>
+                    <li class="a6">Formal Shoes</li>
+                    <li class="a6">Sneakers</li>
+                    <li class="a6">Sandals & Floaters</li>
+                    <li class="a6">Flip Flops</li>
+                    <li class="a6">Socks</li>
+                    <li class="a5">
+                        <hr>
+                    </li>
+                    <li class="a5">Personal Care & Grooming</li>
+                    <li class="a5">Sunglasses & Frames</li>
+                    <li class="a6">Watches</li>
+                    <li class="a6">&nbsp;</li>
+                    <li class="a6">&nbsp;</li>
+                    <li class="a6">&nbsp;</li>
+                    <li class="a6">&nbsp;</li>
+                    <li class="a6">&nbsp;</li>
+                </ul>
+            </div>
+            <div class="div">
+
+                <ul class="list">
+                    <li class="a5">Sports & Active Wear</li>
+                    <li class="a6">Sports Shoes</li>
+                    <li class="a6">Sports Sandals</li>
+                    <li class="a6">Active T-Shirts</li>
+                    <li class="a6">Track Pants & Shorts</li>
+                    <li class="a6">Tracksuits</li>
+                    <li class="a6">Jackets & Sweatshirts</li>
+                    <li class="a6">Sports Accessories</li>
+                    <li class="a6">Swimwear</li>
+                    <li class="a6">
+                        <hr>
+                    </li>
+                    <li class="a6">&nbsp;</li>
+                    <li class="a6">Gadgets</li>
+                    <li class="a6">Smart Wearables</li>
+                    <li class="a6">Fitness Gadgets</li>
+                    <li class="a6">Headphones</li>
+                    <li class="a6">Speakers</li>
+                </ul>
+            </div>
+            <div class="div">
+
+                <ul class="list">
+                    <li class="a5">Fashion Accessories</li>
+                    <li class="a6">Wallets</li>
+                    <li class="a6">Belts</li>
+                    <li class="a6">Perfumes & Body Mists</li>
+                    <li class="a6">Trimmers</li>
+                    <li class="a6">Deodorants</li>
+                    <li class="a6">Ties & Cufflinks</li>
+                    <li class="a6">Acessory Gift Sets</li>
+                    <li class="a6">Caps & Hats</li>
+                    <li class="a6">Mufflers & Gloves</li>
+                    <li class="a6">Phone Cases</li>
+                    <li class="a6">Rings & Wristwear</li>
+                    <li class="a6">Helmets</li>
+                    <li class="a6">
+                        <hr>
+                    </li>
+                    <li class="a5">Bags & Backpacks</li>
+                    <li class="a5">Luggages & Trolleys</li>
+                </ul>
+            </div>
+        </div>
+    </li>
+    <li class="home"><a href="#" class="abcd">HOME&LIVING</a>
+        <div class="hai">
+            <div class="div">
+                <ul class="list">
+                    <li class="a7">Topwear</li>
+                    <li class="a8">T-Shirts</li>
+                    <li class="a8">Casual Shirts</li>
+                    <li class="a8">Formal Shirts</li>
+                    <li class="a8">Sweatshirts</li>
+                    <li class="a8">Sweaters</li>
+                    <li class="a8">Jackets</li>
+                    <li class="a8">Blazers&Coats</li>
+                    <li class="a8">Suits</li>
+                    <li class="a8">Rain Jackets</li>
+                    <hr>
+    </li>
+    <li class="a7">Indian & Festive Wear</li>
+    <li class="a8">Kurtas & Kurta Sets</li>
+    <li class="a8">Sherwanis</li>
+    <li class="a8">Nehru Jackets</li>
+    <li class="a8">Dhotis</li>
+    </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a7">Bottomwear</li>
+            <li class="a8">Jeans</li>
+            <li class="a8">Casual Trousers</li>
+            <li class="a8">Formal Trousers</li>
+            <li class="a8">Shorts</li>
+            <li class="a8">Track Pants & Joggers</li>
+            <hr>
+            </li>
+            <li class="a7">Innerwear & Sleepwear</li>
+            <li class="a8">Briefs & Trunks</li>
+            <li class="a8">Boxers</li>
+            <li class="a8">Vests</li>
+            <li class="a8">Sleepwear & Loungewear</li>
+            <li class="a8">Thermals</li>
+            <hr>
+            </li>
+            <li class="a7">Plus Size</li>
+            <li class="a8">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a7">Footwear</li>
+            <li class="a8">Sports Shoes</li>
+            <li class="a8">Formal Shoes</li>
+            <li class="a8">Sneakers</li>
+            <li class="a8">Sandals & Floaters</li>
+            <li class="a8">Flip Flops</li>
+            <li class="a8">Socks</li>
+            <hr>
+            </li>
+            <li class="a7">Personal Care & Grooming</li>
+            <li class="a8">Sunglasses & Frames</li>
+            <li class="a8">Watches</li>
+            <li class="a8">&nbsp;</li>
+            <li class="a8">&nbsp;</li>
+            <li class="a8">&nbsp;</li>
+            <li class="a8">&nbsp;</li>
+            <li class="a8">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="div">
+
+        <ul class="list">
+            <li class="a7">Sports & Active Wear</li>
+            <li class="a8">Sports Shoes</li>
+            <li class="a8">Sports Sandals</li>
+            <li class="a8">Active T-Shirts</li>
+            <li class="a8">Track Pants & Shorts</li>
+            <li class="a8">Tracksuits</li>
+            <li class="a8">Jackets & Sweatshirts</li>
+            <li class="a8">Sports Accessories</li>
+            <li class="a8">Swimwear</li>
+            <hr>
+            </li>
+            <li class="a8">&nbsp;</li>
+            <li class="a7">Gadgets</li>
+            <li class="a8">Smart Wearables</li>
+            <li class="a8">Fitness Gadgets</li>
+            <li class="a8">Headphones</li>
+            <li class="a8">Speakers</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a7">Fashion Accessories</li>
+            <li class="a8">Wallets</li>
+            <li class="a8">Belts</li>
+            <li class="a8">Perfumes & Body Mists</li>
+            <li class="a8">Trimmers</li>
+            <li class="a8">Deodorants</li>
+            <li class="a8">Ties & Cufflinks</li>
+            <li class="a8">Acessory Gift Sets</li>
+            <li class="a8">Caps & Hats</li>
+            <li class="a8">Mufflers & Gloves</li>
+            <li class="a8">Phone Cases</li>
+            <li class="a8">Rings & Wristwear</li>
+            <li class="a8">Helmets</li>
+            <hr>
+            </li>
+            <li class="a7">Bags & Backpacks</li>
+            <li class="a7">Luggages & Trolleys</li>
+        </ul>
+    </div>
+    </div>
+    </li>
+    <li class="beauty"><a href="#" class="abcde">BEAUTY</a>
+        <div class="hai">
+            <div class="div">
+                <ul class="list">
+                    <li class="a9">Topwear</li>
+                    <li class="a10">T-Shirts</li>
+                    <li class="a10">Casual Shirts</li>
+                    <li class="a10">Formal Shirts</li>
+                    <li class="a10">Sweatshirts</li>
+                    <li class="a10">Sweaters</li>
+                    <li class="a10">Jackets</li>
+                    <li class="a10">Blazers&Coats</li>
+                    <li class="a10">Suits</li>
+                    <li class="a10">Rain Jackets</li>
+                    <hr>
+    </li>
+    <li class="a9">Indian & Festive Wear</li>
+    <li class="a10">Kurtas & Kurta Sets</li>
+    <li class="a10">Sherwanis</li>
+    <li class="a10">Nehru Jackets</li>
+    <li class="a10">Dhotis</li>
+    </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a9">Bottomwear</li>
+            <li class="a10">Jeans</li>
+            <li class="a10">Casual Trousers</li>
+            <li class="a10">Formal Trousers</li>
+            <li class="a10">Shorts</li>
+            <li class="a10">Track Pants & Joggers</li>
+            <hr>
+            </li>
+            <li class="a9">Innerwear & Sleepwear</li>
+            <li class="a10">Briefs & Trunks</li>
+            <li class="a10">Boxers</li>
+            <li class="a10">Vests</li>
+            <li class="a10">Sleepwear & Loungewear</li>
+            <li class="a10">Thermals</li>
+            <hr>
+            </li>
+            <li class="a9">Plus Size</li>
+            <li class="a10">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a9">Footwear</li>
+            <li class="a10">Sports Shoes</li>
+            <li class="a10">Formal Shoes</li>
+            <li class="a10">Sneakers</li>
+            <li class="a10">Sandals & Floaters</li>
+            <li class="a10">Flip Flops</li>
+            <li class="a10">Socks</li>
+            <hr>
+            </li>
+            <li class="a9">Personal Care & Grooming</li>
+            <li class="a10">Sunglasses & Frames</li>
+            <li class="a10">Watches</li>
+            <li class="a10">&nbsp;</li>
+            <li class="a10">&nbsp;</li>
+            <li class="a10">&nbsp;</li>
+            <li class="a10">&nbsp;</li>
+            <li class="a10">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="div">
+
+        <ul class="list">
+            <li class="a9">Sports & Active Wear</li>
+            <li class="a10">Sports Shoes</li>
+            <li class="a10">Sports Sandals</li>
+            <li class="a10">Active T-Shirts</li>
+            <li class="a10">Track Pants & Shorts</li>
+            <li class="a10">Tracksuits</li>
+            <li class="a10">Jackets & Sweatshirts</li>
+            <li class="a10">Sports Accessories</li>
+            <li class="a10">Swimwear</li>
+            <hr>
+            </li>
+            <li class="a10">&nbsp;</li>
+            <li class="a9">Gadgets</li>
+            <li class="a10">Smart Wearables</li>
+            <li class="a10">Fitness Gadgets</li>
+            <li class="a10">Headphones</li>
+            <li class="a10">Speakers</li>
+        </ul>
+    </div>
+    <div class="div">
+        <ul class="list">
+            <li class="a9">Fashion Accessories</li>
+            <li class="a10">Wallets</li>
+            <li class="a10">Belts</li>
+            <li class="a10">Perfumes & Body Mists</li>
+            <li class="a10">Trimmers</li>
+            <li class="a10">Deodorants</li>
+            <li class="a10">Ties & Cufflinks</li>
+            <li class="a10">Acessory Gift Sets</li>
+            <li class="a10">Caps & Hats</li>
+            <li class="a10">Mufflers & Gloves</li>
+            <li class="a10">Phone Cases</li>
+            <li class="a10">Rings & Wristwear</li>
+            <li class="a10">Helmets</li>
+            <hr>
+            </li>
+            <li class="a9">Bags & Backpacks</li>
+            <li class="a9">Luggages & Trolleys</li>
+        </ul>
+    </div>
+    </div>
+    </li>
+    <li class="studio"><a href="#" class="g">STUDIO <sup>NEW</sup></a>
+
+    </div>
+</body>
+
+</html>
