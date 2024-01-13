@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERIODIC TABLE</title>
+</head>
+<style>
+    td{
+        border-radius: 30%;
+        border: none;
+        column-gap: normal;
+        animation: reverse;
+
+    }
+    h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-inline-end: none;
+    }
+   
+</style>
+<body>
+    <h2> <Center style="background-color: lightpink;color: blueviolet;"><i>PERIODIC TABLE</i></Center></h2>
+    <table border="3" rules="all" align="center" cellpadding="20px">
+        <tr align="center">
+            <td style="background-color: aquamarine;">H</td>
+            <td colspan="16" style="border:0px;"></td>
+            <td style="background-color:whitesmoke;">He</td>
+        </tr>
+        <tr align="center">
+            <td style="background-color: red;">Li</td>
+            <td style="background-color: orange;">Be</td>
+            <td colspan="10" style="border:0px;" ></td>
+            <td style="background-color: yellow;">B</td>
+            <td style="background-color: aquamarine;">C</td>
+            <td style="background-color: aquamarine;">N</td>
+            <td style="background-color: aquamarine;">O</td>
+            <td style="background-color:skyblue;">F</td>
+            <td style="background-color:whitesmoke;">Ne</td>
+        </tr>
+        <tr align="center">
+            <td style="background-color: red;">Na</td>
+            <td style="background-color: orange;">Mg</td>
+            <td colspan="10" style="border:0px;"></td>
+            <td style="background-color: cornflowerblue;">Ai</td>
+            <td style="background-color: rgb(248, 248, 9);">Si</td>
+            <td style="background-color: aquamarine;">P</td>
+            <td style="background-color: aquamarine;">S</td>
+            <td style="background-color:skyblue;">Cl</td>
+            <td style="background-color:whitesmoke;">Ar</td>
+        </tr>
+        <tr align="center">
+            <td style="background-color: red;">K</td>
+            <td style="background-color: orange;">Ca</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Sc</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Ti</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">V</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Cr</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Mn</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Fe</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Co</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Ni</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Cu</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Zn</td>
+            <td style="background-color: cornflowerblue;">Ga</td>
+            <td style="background-color: yellow;">Ge</td>
+            <td style="background-color: yellow;">As</td>
+            <td style="background-color: aquamarine;">Se</td>
+            <td style="background-color:skyblue;">Br</td>
+            <td style="background-color:whitesmoke;">Kr</td>
+        </tr>
+        <tr align="center">
+            <td style="background-color: red;">Rb</td>
+            <td style="background-color: orange;">Sr</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Y</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Zr</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Nb</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Mo</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Tc</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Ru</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Rh</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Pd</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Ag</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Cd</td>
+            <td style="background-color: cornflowerblue;">In</td>
+            <td style="background-color: cornflowerblue;">Sn</td>
+            <td style="background-color: yellow;">Sb</td>
+            <td style="background-color: yellow;">Te</td>
+            <td style="background-color:skyblue;">I</td>
+            <td style="background-color:whitesmoke;">Xe</td>
+        </tr>
+        <tr align="center">
+            <td style="background-color: red;">Cs</td>
+            <td style="background-color: orange;">Ba</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">La</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Hf</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Ta</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">W</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Re</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Os</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Ir</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Pt</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Au</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Hg</td>
+            <td style="background-color: cornflowerblue;">TI</td>
+            <td style="background-color: cornflowerblue;">Pb</td>
+            <td style="background-color: cornflowerblue;">Bi</td>
+            <td style="background-color: yellow;">Po</td>
+            <td style="background-color:skyblue;">At</td>
+            <td style="background-color:whitesmoke;">Rn</td>
+        </tr>
+        <tr align="center">
+            <td style="background-color: red;">Fr</td>
+            <td style="background-color: orange;">Ra</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Ac</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Rf</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Db</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Sg</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Bh</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Hs</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Mt</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Ds</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Rg</td>
+            <td style="background-color: rgba(245, 245, 16, 0.926);">Cn</td>
+            <td style="background-color: cornflowerblue;">Nh</td>
+            <td style="background-color: cornflowerblue;">FI</td>
+            <td style="background-color: cornflowerblue;">Mc</td>
+            <td style="background-color: cornflowerblue;">Lv</td>
+            <td style="background-color:skyblue;">Ts</td>
+            <td style="background-color:whitesmoke">Og</td>
+        </tr>
+    </table> <br>&nbsp;&nbsp;&nbsp;
+            <table border="3" rules="all" align="center" cellpadding="20px">
+            <tr align="center">
+                <td style="background-color:crimson ;">Ce</td>
+                <td style="background-color:crimson ;">Pr</td>
+                <td style="background-color:crimson ;">Nd</td>
+                <td style="background-color:crimson ;">Pm</td>
+                <td style="background-color:crimson ;">Sm</td>
+                <td style="background-color:crimson ;">Eu</td>
+                <td style="background-color:crimson ;">Gd</td>
+                <td style="background-color:crimson ;">Tb</td>
+                <td style="background-color:crimson ;">Dy</td>
+                <td style="background-color:crimson ;">Ho</td>
+                <td style="background-color:crimson ;">Er</td>
+                <td style="background-color:crimson ;">Tm</td>
+                <td style="background-color:crimson ;">Yb</td>
+                <td style="background-color:crimson ;">Lu</td>
+    
+            </tr>
+            <tr align="center">
+                <td style="background-color: deeppink;">Th</td>
+                <td style="background-color: deeppink;">Pa</td>
+                <td style="background-color: deeppink;">U</td>
+                <td style="background-color: deeppink;">Np</td>
+                <td style="background-color: deeppink;">Pu</td>
+                <td style="background-color: deeppink;">Am</td>
+                <td style="background-color: deeppink;">Cm</td>
+                <td style="background-color: deeppink;">Bk</td>
+                <td style="background-color: deeppink;">Cf</td>
+                <td style="background-color: deeppink;">Es</td>
+                <td style="background-color: deeppink;">Fm</td>
+                <td style="background-color: deeppink;">Md</td>
+                <td style="background-color: deeppink;">No</td>
+                <td style="background-color: deeppink;">Lr</td>
+            </tr>
+        </table>
+</body>
+</html>
